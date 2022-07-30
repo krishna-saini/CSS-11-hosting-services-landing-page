@@ -1,0 +1,260 @@
+/**************************/
+/* HEADER */
+/**************************/
+.nav-header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* Because we want header to be sticky later */
+  height: 9.6rem;
+  padding: 0 4.8rem;
+}
+
+.logo {
+  height: 4.2rem;
+  /* color: #00a3fe; */
+}
+
+/* NAVIGATION */
+
+.main-nav-list {
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  gap: 3.2rem;
+  list-style: none;
+}
+
+.main-nav-link:hover,
+.main-nav-link:active {
+  color: #25255b;
+}
+
+/**************************/
+/* Intro SECTION */
+/**************************/
+.section-intro {
+  padding: 9.6rem 0;
+}
+
+.step-text-box {
+  padding-bottom: 220px;
+}
+
+.step-description {
+  padding-right: 10%;
+}
+
+.step-img-box:nth-child(2) {
+  justify-self: end;
+}
+.step-img-box:nth-child(6) {
+  justify-self: center;
+  transform: scale(1.6);
+  padding-top: 50px;
+}
+
+.step-img-box img {
+  height: 350px;
+}
+
+/**************************/
+/* services SECTION */
+/**************************/
+.heading-services h2 {
+  padding-right: 10%;
+}
+
+.service img {
+  height: 60px;
+  margin-bottom: 3.2rem;
+}
+
+/**************************/
+/* pricing SECTION */
+/**************************/
+
+.section-pricing {
+  padding: 6.4rem 0 0 0;
+  background: linear-gradient(#00a3fe, #006298);
+  display: flex;
+  flex-direction: column;
+}
+
+.section-pricing div h2 {
+  color: #fff;
+}
+
+.princing-plan {
+  border-radius: 11px;
+  /* width: 75%; */
+  background: #fff;
+  border: 2px solid #fdf2e9;
+  padding: 4.4rem;
+}
+
+.plan-header {
+  margin-bottom: 4.8rem;
+}
+
+.princing-plan .list {
+  color: #25255b;
+}
+
+.plan-name.heading-tertiary {
+  margin-bottom: 1.4rem;
+}
+
+.list-icon {
+  color: green;
+}
+
+.price-details {
+  margin-top: 6.6rem;
+  text-align: center;
+}
+
+.plan-price {
+  font-size: 2.8rem;
+}
+.plan-price span {
+  font-weight: bold;
+  color: #25255b;
+}
+
+.plan-sing-up {
+  text-align: center;
+}
+
+.princing-plan .list {
+}
+
+/**************************/
+/* TESTIMONIALS SECTION */
+/**************************/
+.section-testimonials {
+  padding: 12.8rem 0;
+  background: rgb(241, 234, 234);
+}
+
+.testimonials-container {
+  padding: 9.6rem 22rem;
+  padding-bottom: 5.4rem;
+}
+
+.testimonial {
+  background-color: #fff;
+  border: 2px solid #fff;
+  padding: 2rem 4rem;
+  box-shadow: 0 0 0 1px #fdf2e9;
+}
+
+.testimonial-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testimonial-img {
+  width: 6.4rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testimonial-details {
+  display: flex;
+  align-items: flex-end;
+}
+.author {
+  margin-left: 20px;
+}
+
+.testimonial-name {
+  font-size: 1.6rem;
+  color: #25255b;
+}
+
+/**************************/
+/* Hero SECTION */
+/**************************/
+.section-hero {
+  padding: 9.6rem 0;
+  background: linear-gradient(to bottom right, #00a3fe, #3bb0ff);
+}
+
+.section-hero .container {
+  align-items: center;
+  justify-items: end;
+}
+
+.hero-left {
+}
+
+.hero-right {
+}
+
+.section-hero div div h2 {
+  color: #fff;
+}
+.section-hero div div p {
+  color: #fff;
+}
+
+.section-hero div div a {
+  color: #fff;
+}
+/**************************/
+/* Footer */
+/**************************/
+
+.footer {
+  padding: 12.8rem 0;
+}
+
+.grid--footer {
+  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  /* align-items: center; */
+}
+
+.footer-logo {
+  display: block;
+  margin-bottom: 3.2rem;
+}
+
+.footer-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.footer-link:link,
+.footer-link:visited {
+  text-decoration: none;
+  font-size: 1.4rem;
+  color: #767676;
+  transition: all 0.3s;
+}
+
+.footer-link:hover,
+.footer-link:active {
+  color: #555;
+}
+
+.footer-heading {
+  color: #25255b;
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 3.2rem;
+}
+
+.social-links {
+  list-style: none;
+  display: flex;
+  gap: 10px;
+}
+
+.social-links li a img {
+  height: 2.4rem;
+  width: 2.4rem;
+}
