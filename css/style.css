@@ -1,33 +1,44 @@
 /**************************/
 /* HEADER */
 /**************************/
-.nav-header .container {
+header {
+  margin: 0 auto;
+  padding:0 3.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 9.6rem;
+}
+
+.main-nav-list {
+  list-style: none;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* Because we want header to be sticky later */
-  height: 9.6rem;
-  padding: 0 4.8rem;
+  gap:4rem;
 }
+
 
 .logo {
   height: 4.2rem;
   /* color: #00a3fe; */
 }
 
-/* NAVIGATION */
 
-.main-nav-list {
+
+ .main-nav-link{
   font-size: 1.6rem;
-  display: flex;
-  align-items: center;
-  gap: 3.2rem;
-  list-style: none;
+  text-decoration: none;
+  opacity: 0.7;
 }
 
 .main-nav-link:hover,
 .main-nav-link:active {
   color: #25255b;
+}
+.hamburger-icon{
+  display:none;
+  font-size:30px;
 }
 
 /**************************/
@@ -38,11 +49,12 @@
 }
 
 .step-text-box {
-  padding-bottom: 220px;
+  width: 90%;
+
 }
 
 .step-description {
-  padding-right: 10%;
+ 
 }
 
 .step-img-box:nth-child(2) {
@@ -61,8 +73,14 @@
 /**************************/
 /* services SECTION */
 /**************************/
+.section-services{
+  padding-top:9.6rem;
+}
+.services-list{
+  padding-top: 6rem;;
+}
 .heading-services h2 {
-  padding-right: 10%;
+  /* padding-right: 10%; */
 }
 
 .service img {
@@ -90,20 +108,19 @@
   /* width: 75%; */
   background: #fff;
   border: 2px solid #fdf2e9;
-  padding: 4.4rem;
+  padding: 4.4rem 3.6rem;
+  display: grid;
+ 
 }
 
 .plan-header {
-  margin-bottom: 4.8rem;
+  
 }
 
 .princing-plan .list {
   color: #25255b;
 }
 
-.plan-name.heading-tertiary {
-  margin-bottom: 1.4rem;
-}
 
 .list-icon {
   color: green;
@@ -133,13 +150,14 @@
 /* TESTIMONIALS SECTION */
 /**************************/
 .section-testimonials {
-  padding: 12.8rem 0;
+  padding: 9.6rem 0;
   background: rgb(241, 234, 234);
 }
 
 .testimonials-container {
-  padding: 9.6rem 22rem;
-  padding-bottom: 5.4rem;
+  max-width: 50vw;
+  margin:0 auto;
+
 }
 
 .testimonial {
@@ -179,7 +197,7 @@
 /**************************/
 .section-hero {
   padding: 9.6rem 0;
-  background: linear-gradient(to bottom right, #00a3fe, #3bb0ff);
+  background: linear-gradient(to bottom right, #00a3fe, #475c6b);
 }
 
 .section-hero .container {
@@ -187,11 +205,6 @@
   justify-items: end;
 }
 
-.hero-left {
-}
-
-.hero-right {
-}
 
 .section-hero div div h2 {
   color: #fff;
@@ -212,7 +225,10 @@
 }
 
 .grid--footer {
+  display: grid;
   grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  column-gap: 2rem;;
+  row-gap:2rem;
   /* align-items: center; */
 }
 

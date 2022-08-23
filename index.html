@@ -5,13 +5,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Hosting Landing Page</title>
+    <!-- linking google fonts  -->
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
     />
+    <!-- linking css files  -->
     <link rel="stylesheet" href="./css/style.css" />
     <link rel="stylesheet" href="./css/general.css" />
+    <link rel="stylesheet" href="./css/queries.css">
+    <!-- linking icons pack  -->
     <script
     type="module"
     src="https://unpkg.com/ionicons@5.4.0/dist/ionicons/ionicons.esm.js"
@@ -22,11 +26,12 @@
   ></script>
   </head>
   <body>
-    <header class="nav-header">
-      <div class="container">
+    <header >
+      <!-- logo  -->
         <a href="">
           <img class="logo" src="./img/logo.png" alt="brand-logo" />
         </a>
+        <!-- menu items  -->
         <nav class="main-nav">
           <ul class=" main-nav-list">
             <li ><a class="main-nav-link" href="#">Home</a></li>
@@ -38,10 +43,13 @@
             <li ><a class="main-nav-link btn btn--outline" href="#" >Register Now</a></li>
           </ul>
         </nav>
+        <!-- hamburger menu icon-->
+        <ion-icon name="menu-outline" class="hamburger-icon"></ion-icon>
       </div>
     </header>
 
     <main>
+      <!-- intro sections  -->
       <section class="section-intro">
         <div class="container grid grid--2-cols .grid--center-v  ">
           <!-- step 01 -->
@@ -79,17 +87,17 @@
           </div>
         </div>
       </section>
-      
+      <!-- services section  -->
       <section class="section-services">
         <div class="container">
-          <div class="heading-services grid grid--2-cols grid--center-v">
+          <div class="heading-services">
             <h2 class=" heading-secondary">Services We Provide at ThorHosting</h2>
             <p class="description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Neque modi autem laudantium vel itaque facere quod, dolores, quidem aut sint dolor labore! Nam, cumque.</p>
           </div>
           <div class="services-list grid grid--3-cols margin-bottom-md ">
             <div class="service">
               
-                <img src="./img/_0006_cloud.png" alt="cloud image">
+              <img src="./img/_0006_cloud.png" alt="cloud image">
              
               <h3 class="heading-tertiary">Unlimited Hosting</h3>
               <p class="description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam corrupti iste, debitis harum vitae exercitationem impedit obcaecati repellendus aliquam rerum.</p>
@@ -121,19 +129,19 @@
             </div>
         </div>
       </section>
-
+<!-- pricing section  -->
       <section class="section-pricing">
         <div class="container ">
           <h2 class="heading-secondary">Flexible & Transparent Pricing</h2>
         </div>
 
-        <div class="container grid grid--3-cols margin-bottom-md">
+        <div class="pricing-container container grid grid--3-cols margin-bottom-md">
           <!-- Plan 01 -->
           <div class="princing-plan princing-plan--starter">
-            <header class="plan-header">
-              <h3 class="plan-name heading-tertiary">Starter Pack</h3>
+            <div class="plan-header">
+              <h3 class="heading-tertiary">Starter Pack</h3>
               <p class="plan-text description">Suitable for begineers</p>
-            </header>
+            </div>
             <ul class="list">
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -166,10 +174,10 @@
           </div>
            <!-- Plan 02 -->
           <div class="princing-plan princing-plan--popular">
-            <header class="plan-header">
+            <div class="plan-header">
               <p class="plan-name heading-tertiary">Popular Package</p>
               <p class="plan-text description">Suitable for company, organization</p>
-            </header>
+           </div>
             <ul class="list">
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -202,10 +210,10 @@
           </div>
            <!-- Plan 03 -->
           <div class="princing-plan princing-plan--business">
-            <header class="plan-header">
+            <div class="plan-header">
               <p class="plan-name heading-tertiary">Business Package</p>
               <p class="plan-text description">Suitable for business websites</p>
-            </header>
+           </div>
             <ul class="list">
               <li class="list-item">
                 <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
@@ -238,7 +246,7 @@
           </div>
         </div>
       </section>  
-
+<!-- testimonial section  -->
       <section class="section-testimonials">
         <div class="testimonials-container">
           <h2 class="heading-secondary center-text ">Our Customer Love Us</h2>
@@ -328,9 +336,9 @@
           </div>
         </div>
       </section>
-
+      <!-- footer section  -->
       <footer class="footer">
-        <div class="container grid grid--footer">
+        <div class="container grid--footer">
           <div class="logo-col ">
             <a href="" class="footer-logo">
               <img class="logo" src="./img/logo.png" alt="brand-logo" />
@@ -357,7 +365,7 @@
             </ul>
           </div>
 
-          <div class="Overview-col">
+          <div class="overview-col">
             <p class="footer-heading">Overview</p>
             <ul class="footer-nav">
               <li><a class="footer-link" href="#">Terms & Conditions</a></li>
