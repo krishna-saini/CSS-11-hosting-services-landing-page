@@ -1,4 +1,4 @@
-# Headphone Prdouct Home Page
+# Hosting Service Landing Page
 This is a solution to the challenge no. 11 given in Full Stack Web development bootcamp by [Hitest Chowdhary](https://www.linkedin.com/in/hiteshchoudhary/?originalSubdomain=in)
 
 ## Table of contents
